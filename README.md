@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# Welcome to counter Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple counter application created with **React Native** and **Expo**. It allows users to increment, decrement and reset a counter value. The counter increases and decreases by 2 pressing buttons.
+
+## Features
+
+- ** Increment ** : Increases the counter value by 1.
+- ** Decrement ** : Decreases the counter value by 1.
+- ** Increment by 2** : Increases the counter value by 2.
+- ** Decrement by 2** : Decreases the counter value by 2.
 
 ## Get started
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/berna-ikiz/MyCounterApp.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+```bash
+cd my-counter-app
+```
 
-## Learn more
+2. Install dependencies
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+  npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+3. Start the app
 
-## Join the community
+```bash
+   npx expo start
+```
 
-Join our community of developers creating universal apps.
+4. Run the App
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- For IOS: Press i in the terminal
+- For Android: Press a in the terminal
